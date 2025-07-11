@@ -81,11 +81,11 @@ main {
     align-items: center;
 }
 
-.action_titel{
+.action_titel {
     margin-bottom: 15px;
 }
 
-.action_description{
+.action_description {
     margin-bottom: 10px;
 }
 
@@ -206,6 +206,35 @@ main {
     font-size: 0.85rem;
     display: block;
     margin-top: 3px;
+}
+
+/* < !-- *********************Optipnal Part*********** --> */
+.optipnal{
+    text-align: center;
+    margin: 130px 0;
+    background-color: white;
+    padding: 70px 50px;
+    border-radius: 10px;
+}
+
+.optional_content{
+    margin-bottom: 40px;
+}
+
+.optipnal_titel{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.optipnal_deiscription{
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.optional_img{
+    border-radius: 10px;
+    
 }
 
 /* <!-- *********************CONTACT*********** --> */
