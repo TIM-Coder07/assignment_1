@@ -8,6 +8,12 @@ body {
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -78,4 +84,31 @@ main{
 
 .action_img img{
     border-radius: 35px;
+}
+
+    /* <!-- **********************Productive Section********** --> */
+
+.productive{
+    text-align: center;
+    margin: 200px 0;
+    background-color: #aeaeca;
+    padding: 50px 10px;
+    border-radius: 10PX;
+
+}
+
+.productive_titel{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.count_child h2{
+    font-size: 35px;
+}
+
+.counting{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
