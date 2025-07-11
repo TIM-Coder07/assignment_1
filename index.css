@@ -58,18 +58,18 @@ body {
     padding: 100px;
 }
 
-.hero_titel{
+.hero_titel {
     font-size: 65px;
     font-weight: bold;
 }
 
 /* ***************action part********* */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.action{
+.action {
     display: flex;
     margin-top: 100px;
     flex-direction: row;
@@ -78,17 +78,17 @@ main{
     align-items: center;
 }
 
-.action_content{
+.action_content {
     justify-content: space-between;
 }
 
-.action_img img{
+.action_img img {
     border-radius: 35px;
 }
 
-    /* <!-- **********************Productive Section********** --> */
+/* <!-- **********************Productive Section********** --> */
 
-.productive{
+.productive {
     text-align: center;
     margin: 200px 0;
     background-color: #aeaeca;
@@ -97,18 +97,102 @@ main{
 
 }
 
-.productive_titel{
+.productive_titel {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-.count_child h2{
+.count_child h2 {
     font-size: 35px;
 }
 
-.counting{
+.counting {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+/* <!-- ***********************************FeedBack section************** --> */
+.feedback_titel{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feedback-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.feedback-card:hover {
+    transform: translateY(-5px);
+}
+
+.rating-stars {
+    color: yellow;
+    font-size: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.feedback-title {
+    color: #333;
+    margin: 0 0 15px 0;
+    font-size: 1.4rem;
+}
+
+.feedback-text {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f0f0f0;
+}
+
+.user-name {
+    margin: 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.feedback-date {
+    color: #999;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 3px;
 }
