@@ -81,6 +81,14 @@ main {
     align-items: center;
 }
 
+.action_titel{
+    margin-bottom: 15px;
+}
+
+.action_description{
+    margin-bottom: 10px;
+}
+
 .action_content {
     justify-content: space-between;
 }
