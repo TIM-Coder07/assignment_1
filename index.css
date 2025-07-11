@@ -2,9 +2,10 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #dcdcf3;
+
 }
 
 .header {
@@ -54,4 +55,27 @@ body {
 .hero_titel{
     font-size: 65px;
     font-weight: bold;
+}
+
+/* ***************action part********* */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.action{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.action_content{
+    justify-content: space-between;
+}
+
+.action_img img{
+    border-radius: 35px;
 }
