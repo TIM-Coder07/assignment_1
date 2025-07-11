@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #dcdcf3;
-
 }
 
 * {
@@ -32,6 +31,10 @@ body {
     color: rgb(111, 111, 255);
 }
 
+/* COMMON CSS */
+/* .bg{
+    background-color: #dcdcf3;
+} */
 .btn {
     display: inline-block;
     background-color: #4E47FF;
@@ -257,4 +260,41 @@ textarea {
     background-color: #8a8080;
     color: black;
     border-radius: 5px;
+}
+
+/* ******************FOOTER PART*************** */
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer_titel {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_description {
+    color: #8987A1;
+}
+
+.nav {
+    gap: 45px;
+    margin-bottom: 15px;
+}
+
+.nav a {
+    color: #070707;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: rgb(121, 121, 121);
+    transform: translateY(-5px);
+
+
 }
